@@ -1,0 +1,30 @@
+{
+  "name": "jianjia",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@4.9.2",
+  "description": "A simple, fast, and lightweight template engine for Node.js and browsers.",
+  "license": "MIT",
+  "workspaces": [
+    "benchmark",
+    "playground",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace template run dev",
+    "build": "yarn workspace template run build",
+    "test": "yarn workspace template run test",
+    "repl": "yarn workspace playground run start",
+    "perf": "yarn workspace benchmark run start",
+    "lint": "oxlint && eslint . --ext .ts",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.14.1",
+    "@types/node": "^24.0.1",
+    "eslint": "^9.28.0",
+    "husky": "^9.1.7",
+    "oxlint": "^1.1.0",
+    "typescript": "^5.8.3"
+  }
+}

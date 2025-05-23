@@ -1,0 +1,18 @@
+{{ #for account in accounts }}
+<div>
+  {{ #if account.status eq "closed" }}
+  <div>
+      Your account has been closed!
+  </div>
+  {{ elif account.status eq "suspended" }}
+  <div>
+      Your account has been temporarily suspended
+  </div>
+  {{ elif account.status eq "open" }}
+  <div>
+      Bank balance:
+      <span class="{{= "negative" if account.balance lt 0 else "positive" }}">{{= account.balanceFormatted }}</span>
+  </div>
+  {{ /if }}
+</div>
+{{ /for }}
