@@ -1,0 +1,37 @@
+{
+  "cSpell.words": [
+    "Cascadia",
+    "chunkhash",
+    "Consolas",
+    "davelosert",
+    "elif",
+    "groupby",
+    "iconify",
+    "iife",
+    "jianjia",
+    "lcov",
+    "mdast",
+    "Menlo",
+    "minisearch",
+    "Noto",
+    "nowrap",
+    "oxlint",
+    "pinst",
+    "preflights",
+    "Segoe",
+    "shiki",
+    "shikijs",
+    "tinyrainbow",
+    "unocss",
+    "Vitest",
+    "vvenv"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "html.format.enable": false,
+  "html.format.templating": false,
+  "prettier.experimentalTernaries": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

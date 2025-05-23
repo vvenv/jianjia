@@ -1,0 +1,3 @@
+yarn lint
+yarn format
+CI=true yarn test

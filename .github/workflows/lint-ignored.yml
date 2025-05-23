@@ -1,0 +1,19 @@
+name: Lint ignored
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'packages/**/*'
+
+concurrency:
+  group: lint-ignored-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0

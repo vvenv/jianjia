@@ -1,0 +1,8 @@
+<html>
+  <head>
+  {{ #block head }}<title>JianJia</title>{{ /block }}
+  </head>
+  <body>
+  {{ #block body }}<h1>Hello, JianJia!</h1>{{ /block }}
+  </body>
+</html>
