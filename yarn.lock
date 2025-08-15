@@ -1366,12 +1366,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.0.3":
-  version: 24.0.3
-  resolution: "@types/node@npm:24.0.3"
+"@types/node@npm:^24.3.0":
+  version: 24.3.0
+  resolution: "@types/node@npm:24.3.0"
   dependencies:
-    undici-types: "npm:~7.8.0"
-  checksum: 10c0/9c3c4e87600d1cf11e291c2fd4bfd806a615455463c30a0ef6dc9c801b3423344d9b82b8084e3ccabce485a7421ebb61a66e9676181bd7d9aea4759998a120d5
+    undici-types: "npm:~7.10.0"
+  checksum: 10c0/96bdeca01f690338957c2dcc92cb9f76c262c10398f8d91860865464412b0f9d309c24d9b03d0bdd26dd47fa7ee3f8227893d5c89bc2009d919a525a22512030
   languageName: node
   linkType: hard
 
@@ -3783,7 +3783,7 @@ __metadata:
   resolution: "jianjia@workspace:."
   dependencies:
     "@antfu/eslint-config": "npm:^5.2.1"
-    "@types/node": "npm:^24.0.3"
+    "@types/node": "npm:^24.3.0"
     eslint: "npm:^9.33.0"
     husky: "npm:^9.1.7"
     oxlint: "npm:^1.11.1"
@@ -5128,7 +5128,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "playground@workspace:playground"
   dependencies:
-    "@types/node": "npm:^24.0.3"
+    "@types/node": "npm:^24.3.0"
     ansi-to-html: "npm:^0.7.2"
     shiki: "npm:^3.7.0"
     template: "workspace:^"
@@ -5883,7 +5883,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "template@workspace:packages/template"
   dependencies:
-    "@types/node": "npm:^24.0.3"
+    "@types/node": "npm:^24.3.0"
     "@vitest/coverage-v8": "npm:3.2.4"
     "@vitest/ui": "npm:3.2.4"
     tinyrainbow: "npm:^2.0.0"
@@ -6084,10 +6084,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~7.8.0":
-  version: 7.8.0
-  resolution: "undici-types@npm:7.8.0"
-  checksum: 10c0/9d9d246d1dc32f318d46116efe3cfca5a72d4f16828febc1918d94e58f6ffcf39c158aa28bf5b4fc52f410446bc7858f35151367bd7a49f21746cab6497b709b
+"undici-types@npm:~7.10.0":
+  version: 7.10.0
+  resolution: "undici-types@npm:7.10.0"
+  checksum: 10c0/8b00ce50e235fe3cc601307f148b5e8fb427092ee3b23e8118ec0a5d7f68eca8cee468c8fc9f15cbb2cf2a3797945ebceb1cbd9732306a1d00e0a9b6afa0f635
   languageName: node
   linkType: hard
 
