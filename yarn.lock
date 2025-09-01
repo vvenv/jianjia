@@ -5886,7 +5886,7 @@ __metadata:
     "@types/node": "npm:^24.3.0"
     "@vitest/coverage-v8": "npm:3.2.4"
     "@vitest/ui": "npm:3.2.4"
-    tinyrainbow: "npm:^2.0.0"
+    tinyrainbow: "npm:^3.0.2"
     typescript: "npm:^5.8.3"
     vite: "npm:^7.1.1"
     vite-plugin-dts: "npm:^4.5.4"
@@ -5957,6 +5957,13 @@ __metadata:
   version: 2.0.0
   resolution: "tinyrainbow@npm:2.0.0"
   checksum: 10c0/c83c52bef4e0ae7fb8ec6a722f70b5b6fa8d8be1c85792e829f56c0e1be94ab70b293c032dc5048d4d37cfe678f1f5babb04bdc65fd123098800148ca989184f
+  languageName: node
+  linkType: hard
+
+"tinyrainbow@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "tinyrainbow@npm:3.0.2"
+  checksum: 10c0/536dab385ef41f0d971e28c8b188946fb88bf3416475f8e10fdefd1f351e97ce34ef6f8fb22e8a5cea18a75eee10a671b971f7fd0b462b5b1d761cf8bb82f733
   languageName: node
   linkType: hard
 

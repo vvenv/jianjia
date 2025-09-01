@@ -21,7 +21,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "tinyrainbow": "^2.0.0"
+    "tinyrainbow": "^3.0.2"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
