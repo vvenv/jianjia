@@ -12,7 +12,7 @@
     "template": "workspace:^"
   },
   "devDependencies": {
-    "@types/node": "^24.6.2",
+    "@types/node": "^24.7.0",
     "typescript": "^5.9.3",
     "vite": "^7.1.9"
   }
