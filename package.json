@@ -24,7 +24,7 @@
     "@types/node": "^24.6.2",
     "eslint": "^9.36.0",
     "husky": "^9.1.7",
-    "oxlint": "^1.19.0",
+    "oxlint": "^1.22.0",
     "typescript": "^5.9.3"
   }
 }
