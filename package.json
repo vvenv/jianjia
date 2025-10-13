@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.4.1",
-    "@types/node": "^24.6.2",
+    "@types/node": "^24.7.2",
     "eslint": "^9.36.0",
     "husky": "^9.1.7",
     "oxlint": "^1.19.0",
